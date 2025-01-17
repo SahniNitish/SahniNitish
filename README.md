@@ -9,21 +9,6 @@
 - 🎯 Aiming to build unique projects that solve real-world problems.
 - 🎥 Sharing my learning journey on [YouTube](#) to help others and improve myself.
 
----
-
-## 🔭 I’m currently working on
-
-- **Project Name**: [Project Link](#)
-
-## 👯 I’m looking to collaborate on
-
-- **Project Name**: [Project Link](#)
-
-## 🤝 I’m looking for help with
-
-- **Project Name**: [Project Link](#)
-
----
 
 ## 🛠️ Skills and Tools
 
@@ -59,21 +44,8 @@
 
 ## 📫 How to reach me
 
-- **Email**: example@gmail.com
+- nitishsahni884@gmail.com
 
-## 👨‍💻 All of my projects are available at
-
-- [Portfolio Link](#)
-
-## 📝 I regularly write articles on
-
-- [Blog Link](#)
-
-## 📄 Know about my experiences
-
-- [Resume Link](#)
-
----
 
 ## 📘 Current Projects
 
