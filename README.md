@@ -3,7 +3,7 @@
 
 ## 🚀 About Me
 
-- 🎓 **Third-Year Computer Science Student** at [Your University].
+- 🎓 **Third-Year Computer Science Student** at Acadia university.
 - 💻 Passionate about **programming**, **AI**, and **full-stack development**.
 - 🌟 Currently learning **JavaScript**, **React**, and exploring **Web3 development**.
 - 🎯 Aiming to build unique projects that solve real-world problems.
