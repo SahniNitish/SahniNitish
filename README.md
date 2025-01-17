@@ -7,7 +7,7 @@
 - 💻 Passionate about **programming**, **AI**, and **full-stack development**.
 - 🌟 Currently learning **JavaScript**, **React**, and exploring **Web3 development**.
 - 🎯 Aiming to build unique projects that solve real-world problems.
-- 🎥 Sharing my learning journey on [YouTube](#) to help others and improve myself.
+- 🎥 Sharing my learning journey on (https://www.youtube.com/@CodeCrackerYT) to help others and improve myself.
 
 
 ## 🛠️ Skills and Tools
