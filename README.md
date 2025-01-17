@@ -65,10 +65,9 @@
 
 ## 📫 Let's Connect!
 
-- **LinkedIn**: [Your LinkedIn Profile](#)
-- **GitHub**: [github.com/NitishSahni](https://github.com/NitishSahni)
-- **YouTube**: [Your YouTube Channel](#)
-- **Email**: [Your Email Address](#)
+- LinkedIn: (https://www.linkedin.com/in/sahninitish/)
+- GitHub: (https://github.com/NitishSahni)
+- Email: Nitishsahni884@gmail.com
 
 ---
 
