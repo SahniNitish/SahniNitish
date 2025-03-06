@@ -1,79 +1,29 @@
+Perfect! Here’s the updated and **cleaner version** of your GitHub README with the new projects:  
+
+---
 
 # Hi there, I'm Nitish Sahni! 👋
 
-## 🚀 About Me
+🎓 **Third-Year Computer Science Student** at Acadia University  
+💻 **Passionate about programming, AI, and full-stack development**  
+🌐 Currently learning **JavaScript, React**, and **Cloud Computing**  
 
-- 🎓 **Third-Year Computer Science Student** at Acadia university.
-- 💻 Passionate about **programming**, **AI**, and **full-stack development**.
-- 🌟 Currently learning **JavaScript**, **React**, and exploring **Web3 development**.
-- 🎯 Aiming to build unique projects that solve real-world problems.
-- 🎥 Sharing my learning journey on (https://www.youtube.com/@CodeCrackerYT) to help others and improve myself.
+## 💼 Skills  
+**Languages:** C, Python, Java, JavaScript  
+**Web Development:** HTML, CSS, JavaScript, React (learning)  
+**Tools:** Git, GitHub, VS Code, Node.js  
 
+## 📘 Projects  
+- **Research Paper Summarizer:** AI-powered tool to summarize research papers  
+- **Website Builder:** A website that generates other websites  
+- **Java Fighting Game:** Simple 2-player fighting game in Java  
+- **AI Expense Tracker:** Tracks expenses and offers financial insights using AI  
 
-## 🛠️ Skills and Tools
-
-### Programming Languages:
-- **C**
-- **Python**
-- **Java**
-- **JavaScript**
-
-### Web Development:
-- HTML, CSS, JavaScript
-- React (learning in progress)
-
-### Other Tools:
-- Git & GitHub
-- VS Code
-- Node.js
-
-### Cloud Computing:
-- Working on projects in **Full-Stack Cloud Computing**
+## 📫 Contact  
+📧 nitishsahni884@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/sahninitish/)  
+💻 [GitHub](https://github.com/NitishSahni)
 
 ---
 
-## 🌱 I’m currently learning
-
-- Frameworks, Courses, etc.
-
-## 💬 Ask me about
-
-- React, Vue, and GSAP
-
----
-
-## 📫 How to reach me
-
-- nitishsahni884@gmail.com
-
-
-## 📘 Current Projects
-
-- **AI Stock Handler**: Analyzing data, charting trends, and automating stock trading.
-- **Web Whiteboard App**: Includes pen markers, shapes, and sharing features.
-- **Productivity App**: AI-powered timer with note-taking and quick Q&A features.
-
----
-
-## 🌱 Learning Goals for 2025
-
-- Master React and Web3 development.
-- Build strong problem-solving skills through Java projects.
-- Explore and contribute to open-source projects.
-
----
-
-## 📫 Let's Connect!
-
-- LinkedIn: (https://www.linkedin.com/in/sahninitish/)
-- GitHub: (https://github.com/NitishSahni)
-- Email: Nitishsahni884@gmail.com
-
----
-
-### 🌟 Fun Facts
-
-- 🏋️‍♂️ Recently started hitting the gym and working on fitness goals.
-- 🎨 I enjoy creating unique projects and exploring new technologies.
-- ✨ My favorite festival is **Diwali**!
-
+Want me to add a **fun fact** or maybe a personal touch at the end? 😄
