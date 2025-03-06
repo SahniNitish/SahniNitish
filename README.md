@@ -1,6 +1,4 @@
-Perfect! Here’s the updated and **cleaner version** of your GitHub README with the new projects:  
 
----
 
 # Hi there, I'm Nitish Sahni! 👋
 
@@ -25,5 +23,3 @@ Perfect! Here’s the updated and **cleaner version** of your GitHub README with
 💻 [GitHub](https://github.com/NitishSahni)
 
 ---
-
-Want me to add a **fun fact** or maybe a personal touch at the end? 😄
