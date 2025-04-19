@@ -9,7 +9,7 @@
 ## 💼 Skills  
 **Languages:** C, Python, Java, JavaScript ,php 
 **Web Development:** HTML, CSS, JavaScript, React , Laravel  
-**Tools:** Git, GitHub, VS Code, Node.js  
+**Tools:** Git, GitHub, VS Code, Node.js ,AWS
 
 ## 📫 Contact  
 📧 nitishsahni884@gmail.com  
