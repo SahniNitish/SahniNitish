@@ -7,8 +7,8 @@
 🌐 Currently learning **JavaScript, React**, and **Cloud Computing**  
 
 ## 💼 Skills  
-**Languages:** C, Python, Java, JavaScript  
-**Web Development:** HTML, CSS, JavaScript, React (learning)  
+**Languages:** C, Python, Java, JavaScript ,php 
+**Web Development:** HTML, CSS, JavaScript, React , Laravel  
 **Tools:** Git, GitHub, VS Code, Node.js  
 
 ## 📫 Contact  
