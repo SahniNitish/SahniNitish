@@ -1,15 +1,29 @@
+# 👋 Hey, I'm Nitish Sahni
 
+🎓 I'm a **Third-Year Computer Science student** at Acadia University with a deep interest in building scalable applications and exploring new tech.  
+🚀 I’m passionate about **AI**, **full-stack development**, and solving real-world problems with code.
 
-# Hi there, I'm Nitish Sahni! 👋
+---
 
-🎓 **Third-Year Computer Science Student** at Acadia University  
-💻 **Passionate about programming, AI, and full-stack development**  
-🌐 Currently learning **JavaScript, React**, and **Cloud Computing**  
+### 🛠️ Technical Skills
 
-## 💼 Skills  
-**Languages:** C, Python, Java, JavaScript ,php 
-**Web Development:** HTML, CSS, JavaScript, React , Laravel  
-**Tools:** Git, GitHub, VS Code, Node.js ,AWS
+**Languages:**  
+C · Python · Java · JavaScript · PHP
+
+**Frontend Development:**  
+HTML · CSS · JavaScript · React · Tailwind CSS
+
+**Backend Development:**  
+Laravel · Node.js · Express.js · REST APIs
+
+**Databases:**  
+MySQL · MongoDB · SQLite
+
+**Cloud & DevOps:**  
+AWS (EC2, S3) · GitHub Actions · Docker (learning)
+
+**Tools & Platforms:**  
+Git · GitHub · VS Code · Postman · Linux · Figma
 
 ## 📫 Contact  
 📧 nitishsahni884@gmail.com  
