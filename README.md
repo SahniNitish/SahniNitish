@@ -1,6 +1,6 @@
-# 👋 Hey, I'm Nitish Sahni
+#  Hey, I'm Nitish Sahni
 
-🎓 I'm a **Third-Year Computer Science student** at Acadia University with a deep interest in building scalable applications and exploring new tech.  
+🎓 I'm a **Fourth-Year Computer Science student** at Acadia University with a deep interest in building scalable applications and exploring new tech.  
 🚀 I’m passionate about **AI**, **full-stack development**, and solving real-world problems with code.
 
 ---
