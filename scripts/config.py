@@ -17,7 +17,7 @@ RAMP = " .`:-=+*cs#%@"          # bright (sparse) -> dark (dense)
 # contribution graph can't tell.
 INFO_TITLE = "nitish@github"
 INFO_ROWS = [
-    ("Now",        "Technical Analyst — ships like a developer"),
+    ("Now",        "Technical Systems Analyst — ships like a developer"),
     ("Edu",        "BCS Software Dev @ Acadia (Co-op · Dec 2026)"),
     ("Languages",  "Python · TypeScript · Java · C · SQL · PHP"),
     ("Frameworks", "React · Next.js · Node · Laravel · Spring Boot · Tailwind"),
