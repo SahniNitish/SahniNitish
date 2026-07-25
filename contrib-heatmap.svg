@@ -396,6 +396,6 @@
 <rect x="715" y="169" width="11" height="11" rx="2.5" fill="#26a641"/>
 <rect x="729" y="169" width="11" height="11" rx="2.5" fill="#39d353"/>
 <rect x="743" y="169" width="11" height="11" rx="2.5" fill="#69f0a0"/>
-<text x="761" y="178" class="t">More</text>
+<text x="761" y="178" class="t" text-anchor="start">More</text>
 <text x="20" y="178" class="t fade" style="animation-delay:5.49s">349 contributions in the last year  ·  current streak 0d  ·  longest 6d  ·  best day 26</text>
 </svg>

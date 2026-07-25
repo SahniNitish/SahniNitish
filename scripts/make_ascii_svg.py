@@ -62,7 +62,7 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def render(rows):
+def render(rows, static=False):
     ncols = max((len(r) for r in rows), default=0)
     width = int(ncols * CH_W) + 24
     height = int(len(rows) * CH_H) + 24
@@ -84,6 +84,11 @@ def render(rows):
         full = len(row) * CH_W
         y = y0 + i * CH_H
         begin = round(i * stagger, 3)
+        if static:
+            # frozen final frame: full text, no wipe, no cursor
+            p.append(
+                f'<text x="{x0}" y="{y}" xml:space="preserve">{esc(row)}</text>')
+            continue
         clip = f"clip{i}"
         # clip rect wipes from 0 -> full width
         p.append(
@@ -106,12 +111,14 @@ def render(rows):
 
 
 def main():
+    static = bool(os.environ.get("STATIC"))
+    out = OUT.replace(".svg", ".static.svg") if static else OUT
     img = load_image()
     rows = to_ascii_rows(img)
-    svg = render(rows)
-    with open(OUT, "w") as f:
+    svg = render(rows, static=static)
+    with open(out, "w") as f:
         f.write(svg)
-    print(f"Wrote {OUT} ({len(rows)} rows, {len(svg)} bytes)")
+    print(f"Wrote {out} ({len(rows)} rows, {len(svg)} bytes)")
 
 
 if __name__ == "__main__":

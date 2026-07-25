@@ -65,7 +65,7 @@ def month_labels(columns):
     return labels
 
 
-def render(payload):
+def render(payload, static=False):
     days = payload["days"]
     stats = payload["stats"]
     columns = build_columns(days)
@@ -86,16 +86,22 @@ def render(payload):
         f'Menlo,Consolas,monospace">')
 
     # style / keyframes
-    parts.append(
-        "<style>"
-        "@keyframes pop{from{opacity:0;transform:translateY(-6px) scale(.6);}"
-        "to{opacity:1;transform:none;}}"
-        ".cell{opacity:0;animation:pop .45s ease-out forwards;transform-box:fill-box;"
-        "transform-origin:center;}"
-        "@keyframes fade{to{opacity:1;}}"
-        ".fade{opacity:0;animation:fade .6s ease-out forwards;}"
-        f".t{{fill:#8b949e;font-size:9px;}}.title{{fill:{PALETTE[4]};font-size:12px;}}"
-        "</style>")
+    if static:
+        parts.append(
+            "<style>.cell{opacity:1;}.fade{opacity:1;}"
+            f".t{{fill:#8b949e;font-size:9px;}}.title{{fill:{PALETTE[4]};font-size:12px;}}"
+            "</style>")
+    else:
+        parts.append(
+            "<style>"
+            "@keyframes pop{from{opacity:0;transform:translateY(-6px) scale(.6);}"
+            "to{opacity:1;transform:none;}}"
+            ".cell{opacity:0;animation:pop .45s ease-out forwards;transform-box:fill-box;"
+            "transform-origin:center;}"
+            "@keyframes fade{to{opacity:1;}}"
+            ".fade{opacity:0;animation:fade .6s ease-out forwards;}"
+            f".t{{fill:#8b949e;font-size:9px;}}.title{{fill:{PALETTE[4]};font-size:12px;}}"
+            "</style>")
 
     # background
     parts.append(f'<rect width="{width}" height="{height}" rx="8" fill="#0d1117"/>')
@@ -138,7 +144,8 @@ def render(payload):
         lx = legend_x + 32 + i * PITCH
         parts.append(f'<rect x="{lx}" y="{ly}" width="{CELL}" height="{CELL}" rx="2.5" fill="{c}"/>')
     more_x = legend_x + 32 + len(PALETTE) * PITCH + 4
-    parts.append(f'<text x="{more_x}" y="{ly + CELL - 2}" class="t">More</text>')
+    parts.append(f'<text x="{more_x}" y="{ly + CELL - 2}" class="t" '
+                 f'text-anchor="start">More</text>')
 
     # footer stats bottom-left
     s = stats
@@ -155,12 +162,14 @@ def render(payload):
 
 
 def main():
+    static = bool(os.environ.get("STATIC"))
+    out = OUT.replace(".svg", ".static.svg") if static else OUT
     with open(DATA) as f:
         payload = json.load(f)
-    svg = render(payload)
-    with open(OUT, "w") as f:
+    svg = render(payload, static=static)
+    with open(out, "w") as f:
         f.write(svg)
-    print(f"Wrote {OUT} ({len(svg)} bytes)")
+    print(f"Wrote {out} ({len(svg)} bytes)")
 
 
 if __name__ == "__main__":

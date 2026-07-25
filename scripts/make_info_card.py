@@ -25,12 +25,15 @@ def esc(s):
     return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
 
-def render():
+def render(static=False):
     title_h = 40
     n = len(INFO_ROWS)
-    # width: rough fit to longest "key: value"
-    longest = max(len(k) + len(v) for k, v in INFO_ROWS)
-    width = max(360, int(longest * 7.4) + PAD * 2)
+    # width: value column starts at PAD+KEY_W; size to the longest value.
+    CHAR = 8.2  # px per monospace glyph at FS=13
+    max_val = max(len(v) for _, v in INFO_ROWS)
+    title_len = len(INFO_TITLE) + len(" — neofetch")
+    width = int(max(PAD + KEY_W + max_val * CHAR + PAD,
+                    PAD + 60 + title_len * 7 + PAD))
     height = title_h + n * LINE + PAD + 14
 
     p = [
@@ -38,7 +41,8 @@ def render():
         f'viewBox="0 0 {width} {height}">',
         f'<style>@keyframes in{{from{{opacity:0;transform:translateX(-10px);}}'
         f'to{{opacity:1;transform:none;}}}}'
-        f'.row{{opacity:0;animation:in .5s ease-out forwards;}}'
+        f'.row{{opacity:{1 if static else 0};'
+        f'{"" if static else "animation:in .5s ease-out forwards;"}}}'
         f'text{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}}'
         f'</style>',
         f'<rect width="{width}" height="{height}" rx="10" fill="{ASCII_BG}"/>',
@@ -75,10 +79,12 @@ def render():
 
 
 def main():
-    svg = render()
-    with open(OUT, "w") as f:
+    static = bool(os.environ.get("STATIC"))
+    out = OUT.replace(".svg", ".static.svg") if static else OUT
+    svg = render(static=static)
+    with open(out, "w") as f:
         f.write(svg)
-    print(f"Wrote {OUT} ({len(svg)} bytes)")
+    print(f"Wrote {out} ({len(svg)} bytes)")
 
 
 if __name__ == "__main__":
