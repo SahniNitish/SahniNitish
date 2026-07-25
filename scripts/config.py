@@ -17,12 +17,12 @@ RAMP = " .`:-=+*cs#%@"          # bright (sparse) -> dark (dense)
 # contribution graph can't tell.
 INFO_TITLE = "nitish@github"
 INFO_ROWS = [
-    ("Now",        "Business Analyst @ Irving Personal Care"),
-    ("Focus",      "Real-time manufacturing dashboards & data pipelines"),
-    ("Stack",      "Power Platform · SQL · .NET 8 Blazor · Python · React"),
-    ("Building",   "Line-Heartbeat — live production monitor (PI + JDE)"),
-    ("Also",       "Power BI compliance dashboards · SharePoint automation"),
-    ("Prev",       "Full-stack & DBMS projects (HMS, LMAT)"),
+    ("Now",        "Technical Analyst — building like a developer"),
+    ("Focus",      "Backend & system design · React front-ends"),
+    ("Languages",  "C++ · Java · Python"),
+    ("Frontend",   "React · Tailwind"),
+    ("Infra",      "AWS · Redis"),
+    ("AI",         "RAG pipelines · model training"),
 ]
 
 # ---- Heatmap palette ----
