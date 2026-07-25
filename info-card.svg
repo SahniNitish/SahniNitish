@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="472" height="228" viewBox="0 0 472 228">
+<style>@keyframes in{from{opacity:0;transform:translateX(-10px);}to{opacity:1;transform:none;}}.row{opacity:0;animation:in .5s ease-out forwards;}text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}</style>
+<rect width="472" height="228" rx="10" fill="#0d1117"/>
+<rect width="472" height="228" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
+<circle cx="24" cy="22" r="5" fill="#ff5f56"/>
+<circle cx="40" cy="22" r="5" fill="#ffbd2e"/>
+<circle cx="56" cy="22" r="5" fill="#27c93f"/>
+<text x="78" y="26" fill="#8b949e" font-size="12">nitish@github — neofetch</text>
+<line x1="0" y1="32" x2="472" y2="32" stroke="#21262d"/>
+<g class="row" style="animation-delay:0.15s">
+<text x="18" y="59" fill="#39d353" font-size="13" font-weight="bold">Now</text>
+<text x="18" y="59" fill="#8b949e" font-size="13">    </text>
+<text x="110" y="59" fill="#c9d1d9" font-size="13">Business Analyst @ Irving Personal Care</text>
+</g>
+<g class="row" style="animation-delay:0.27s">
+<text x="18" y="85" fill="#39d353" font-size="13" font-weight="bold">Focus</text>
+<text x="18" y="85" fill="#8b949e" font-size="13">      </text>
+<text x="110" y="85" fill="#c9d1d9" font-size="13">Real-time manufacturing dashboards &amp; data pipelines</text>
+</g>
+<g class="row" style="animation-delay:0.39s">
+<text x="18" y="111" fill="#39d353" font-size="13" font-weight="bold">Stack</text>
+<text x="18" y="111" fill="#8b949e" font-size="13">      </text>
+<text x="110" y="111" fill="#c9d1d9" font-size="13">Power Platform · SQL · .NET 8 Blazor · Python · React</text>
+</g>
+<g class="row" style="animation-delay:0.51s">
+<text x="18" y="137" fill="#39d353" font-size="13" font-weight="bold">Building</text>
+<text x="18" y="137" fill="#8b949e" font-size="13">         </text>
+<text x="110" y="137" fill="#c9d1d9" font-size="13">Line-Heartbeat — live production monitor (PI + JDE)</text>
+</g>
+<g class="row" style="animation-delay:0.63s">
+<text x="18" y="163" fill="#39d353" font-size="13" font-weight="bold">Also</text>
+<text x="18" y="163" fill="#8b949e" font-size="13">     </text>
+<text x="110" y="163" fill="#c9d1d9" font-size="13">Power BI compliance dashboards · SharePoint automation</text>
+</g>
+<g class="row" style="animation-delay:0.75s">
+<text x="18" y="189" fill="#39d353" font-size="13" font-weight="bold">Prev</text>
+<text x="18" y="189" fill="#8b949e" font-size="13">     </text>
+<text x="110" y="189" fill="#c9d1d9" font-size="13">Full-stack &amp; DBMS projects (HMS, LMAT)</text>
+</g>
+</svg>
