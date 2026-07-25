@@ -1,40 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="496" height="228" viewBox="0 0 496 228">
+<svg xmlns="http://www.w3.org/2000/svg" width="628" height="280" viewBox="0 0 628 280">
 <style>@keyframes in{from{opacity:0;transform:translateX(-10px);}to{opacity:1;transform:none;}}.row{opacity:0;animation:in .5s ease-out forwards;}text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}</style>
-<rect width="496" height="228" rx="10" fill="#0d1117"/>
-<rect width="496" height="228" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
+<rect width="628" height="280" rx="10" fill="#0d1117"/>
+<rect width="628" height="280" rx="10" fill="none" stroke="#21262d" stroke-width="1"/>
 <circle cx="24" cy="22" r="5" fill="#ff5f56"/>
 <circle cx="40" cy="22" r="5" fill="#ffbd2e"/>
 <circle cx="56" cy="22" r="5" fill="#27c93f"/>
 <text x="78" y="26" fill="#8b949e" font-size="12">nitish@github — neofetch</text>
-<line x1="0" y1="32" x2="496" y2="32" stroke="#21262d"/>
+<line x1="0" y1="32" x2="628" y2="32" stroke="#21262d"/>
 <g class="row" style="animation-delay:0.15s">
 <text x="18" y="59" fill="#39d353" font-size="13" font-weight="bold">Now</text>
 <text x="18" y="59" fill="#8b949e" font-size="13">    </text>
-<text x="110" y="59" fill="#c9d1d9" font-size="13">Technical Analyst — building like a developer</text>
+<text x="110" y="59" fill="#c9d1d9" font-size="13">Technical Analyst — ships like a developer</text>
 </g>
 <g class="row" style="animation-delay:0.27s">
-<text x="18" y="85" fill="#39d353" font-size="13" font-weight="bold">Focus</text>
-<text x="18" y="85" fill="#8b949e" font-size="13">      </text>
-<text x="110" y="85" fill="#c9d1d9" font-size="13">Backend &amp; system design · React front-ends</text>
+<text x="18" y="85" fill="#39d353" font-size="13" font-weight="bold">Edu</text>
+<text x="18" y="85" fill="#8b949e" font-size="13">    </text>
+<text x="110" y="85" fill="#c9d1d9" font-size="13">BCS Software Dev @ Acadia (Co-op · Dec 2026)</text>
 </g>
 <g class="row" style="animation-delay:0.39s">
 <text x="18" y="111" fill="#39d353" font-size="13" font-weight="bold">Languages</text>
 <text x="18" y="111" fill="#8b949e" font-size="13">          </text>
-<text x="110" y="111" fill="#c9d1d9" font-size="13">C++ · Java · Python</text>
+<text x="110" y="111" fill="#c9d1d9" font-size="13">Python · TypeScript · Java · C · SQL · PHP</text>
 </g>
 <g class="row" style="animation-delay:0.51s">
-<text x="18" y="137" fill="#39d353" font-size="13" font-weight="bold">Frontend</text>
-<text x="18" y="137" fill="#8b949e" font-size="13">         </text>
-<text x="110" y="137" fill="#c9d1d9" font-size="13">React · Tailwind</text>
+<text x="18" y="137" fill="#39d353" font-size="13" font-weight="bold">Frameworks</text>
+<text x="18" y="137" fill="#8b949e" font-size="13">           </text>
+<text x="110" y="137" fill="#c9d1d9" font-size="13">React · Next.js · Node · Laravel · Spring Boot · Tailwind</text>
 </g>
 <g class="row" style="animation-delay:0.63s">
-<text x="18" y="163" fill="#39d353" font-size="13" font-weight="bold">Infra</text>
+<text x="18" y="163" fill="#39d353" font-size="13" font-weight="bold">Cloud</text>
 <text x="18" y="163" fill="#8b949e" font-size="13">      </text>
-<text x="110" y="163" fill="#c9d1d9" font-size="13">AWS · Redis</text>
+<text x="110" y="163" fill="#c9d1d9" font-size="13">AWS · Azure · Docker · CI/CD · GitHub Actions</text>
 </g>
 <g class="row" style="animation-delay:0.75s">
-<text x="18" y="189" fill="#39d353" font-size="13" font-weight="bold">AI</text>
-<text x="18" y="189" fill="#8b949e" font-size="13">   </text>
-<text x="110" y="189" fill="#c9d1d9" font-size="13">RAG pipelines · model training</text>
+<text x="18" y="189" fill="#39d353" font-size="13" font-weight="bold">Data</text>
+<text x="18" y="189" fill="#8b949e" font-size="13">     </text>
+<text x="110" y="189" fill="#c9d1d9" font-size="13">PostgreSQL · MongoDB · MySQL · Redis · DynamoDB</text>
+</g>
+<g class="row" style="animation-delay:0.87s">
+<text x="18" y="215" fill="#39d353" font-size="13" font-weight="bold">AI / ML</text>
+<text x="18" y="215" fill="#8b949e" font-size="13">        </text>
+<text x="110" y="215" fill="#c9d1d9" font-size="13">OpenAI CLIP · GPT API · Pandas · NumPy · RAG · model training</text>
+</g>
+<g class="row" style="animation-delay:0.99s">
+<text x="18" y="241" fill="#39d353" font-size="13" font-weight="bold">Web3</text>
+<text x="18" y="241" fill="#8b949e" font-size="13">     </text>
+<text x="110" y="241" fill="#c9d1d9" font-size="13">Ethereum · Web3.js · Alchemy · Uniswap · DeBank</text>
 </g>
 </svg>
