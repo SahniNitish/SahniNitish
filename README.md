@@ -1,7 +1,6 @@
 <div align="center">
 
-<h3><code>nitish@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
+<h3>
 
 <br><br>
 
