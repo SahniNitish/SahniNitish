@@ -2,7 +2,6 @@
 
 <h3>
 
-<br><br>
 
 <h3><code>nitish@github ~ $ whoami</code></h3>
 <table>
